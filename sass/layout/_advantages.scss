@@ -35,17 +35,17 @@
 
 .advantages__item:nth-child(1)::before {
   content: '';
-  background-image: url('/images/advantages/img1.png');
+  background-image: url('../images/advantages/img1.png');
 }
 
 .advantages__item:nth-child(2)::before {
   content: '';
-  background-image: url('/images/advantages/img2.png');
+  background-image: url('../images/advantages/img2.png');
 }
 
 .advantages__item:nth-child(3)::before {
   content: '';
-  background-image: url('/images/advantages/img3.png');
+  background-image: url('../images/advantages/img3.png');
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -53,17 +53,17 @@
 (min-resolution: 2dppx) {
   .advantages__item:nth-child(1)::before {
     content: '';
-    background-image: url('/images/advantages/img1@2x.png');
+    background-image: url('../images/advantages/img1@2x.png');
   }
 
   .advantages__item:nth-child(2)::before {
     content: '';
-    background-image: url('/images/advantages/img2@2x.png');
+    background-image: url('../images/advantages/img2@2x.png');
   }
 
   .advantages__item:nth-child(3)::before {
     content: '';
-    background-image: url('/images/advantages/img3@2x.png');
+    background-image: url('../images/advantages/img3@2x.png');
   }
 }
 
