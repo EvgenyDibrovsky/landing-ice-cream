@@ -1001,29 +1001,29 @@ body {
   }
   .products__item:nth-child(1)::before {
     content: "";
-    background-image: url("/images/mobile/products/products-img1.png");
+    background-image: url("./images/mobile/products/products-img1.png");
   }
   .products__item:nth-child(2)::before {
     content: "";
-    background-image: url("/images/mobile/products/products-img2.png");
+    background-image: url("./images/mobile/products/products-img2.png");
   }
   .products__item:nth-child(3)::before {
     content: "";
-    background-image: url("/images/mobile/products/products-img3.png");
+    background-image: url("./images/mobile/products/products-img3.png");
   }
 }
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .products__item:nth-child(1)::before {
     content: "";
-    background-image: url("/images/mobile/products/products-img1@2x.png");
+    background-image: url("./images/mobile/products/products-img1@2x.png");
   }
   .products__item:nth-child(2)::before {
     content: "";
-    background-image: url("/images/mobile/products/products-img2@2x.png");
+    background-image: url("./images/mobile/products/products-img2@2x.png");
   }
   .products__item:nth-child(3)::before {
     content: "";
-    background-image: url("/images/mobile/products/products-img3@2x.png");
+    background-image: url("./images/mobile/products/products-img3@2x.png");
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1050,29 +1050,29 @@ body {
   }
   .products__item:nth-child(1)::before {
     content: "";
-    background-image: url("/images/tablet/products/products-img1.png");
+    background-image: url("./images/tablet/products/products-img1.png");
   }
   .products__item:nth-child(2)::before {
     content: "";
-    background-image: url("/images/tablet/products/products-img2.png");
+    background-image: url("./images/tablet/products/products-img2.png");
   }
   .products__item:nth-child(3)::before {
     content: "";
-    background-image: url("/images/tablet/products/products-img3.png");
+    background-image: url("./images/tablet/products/products-img3.png");
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .products__item:nth-child(1)::before {
     content: "";
-    background-image: url("/images/tablet/products/products-img1@2x.png");
+    background-image: url("./images/tablet/products/products-img1@2x.png");
   }
   .products__item:nth-child(2)::before {
     content: "";
-    background-image: url("/images/tablet/products/products-img2@2x.png");
+    background-image: url("./images/tablet/products/products-img2@2x.png");
   }
   .products__item:nth-child(3)::before {
     content: "";
-    background-image: url("/images/tablet/products/products-img3@2x.png");
+    background-image: url("./images/tablet/products/products-img3@2x.png");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1107,34 +1107,34 @@ body {
   }
   .products__item:nth-child(1)::before {
     content: "";
-    background-image: url("/images/desktop/products/products-img1.png");
+    background-image: url("./images/desktop/products/products-img1.png");
   }
   .products__item:nth-child(2)::before {
     content: "";
-    background-image: url("/images/desktop/products/products-img2.png");
+    background-image: url("./images/desktop/products/products-img2.png");
   }
   .products__item:nth-child(3)::before {
     content: "";
-    background-image: url("/images/desktop/products/products-img3.png");
+    background-image: url("./images/desktop/products/products-img3.png");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .products__item:nth-child(1)::before {
     content: "";
-    background-image: url("/images/desktop/products/products-img1@2x.png");
+    background-image: url("./images/desktop/products/products-img1@2x.png");
   }
   .products__item:nth-child(2)::before {
     content: "";
-    background-image: url("/images/desktop/products/products-img2@2x.png");
+    background-image: url("./images/desktop/products/products-img2@2x.png");
   }
   .products__item:nth-child(3)::before {
     content: "";
-    background-image: url("/images/desktop/products/products-img3@2x.png");
+    background-image: url("./images/desktop/products/products-img3@2x.png");
   }
 }
 .about {
   background-color: #fff5f6;
-  background-image: url(/./images/mobile/about/about-bg.png);
+  background-image: url(/../images/mobile/about/about-bg.png);
   background-repeat: no-repeat;
   background-position: center 75%;
   background-size: contain;
@@ -1154,27 +1154,27 @@ body {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about {
-    background-image: url(/./images/mobile/about/about-bg@2x.png);
+    background-image: url(/../images/mobile/about/about-bg@2x.png);
   }
 }
 @media screen and (min-width: 768px) {
   .about {
-    background-image: url(/./images/desktop/about/about-bg.png);
+    background-image: url(/../images/desktop/about/about-bg.png);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .about {
-    background-image: url(/./images/desktop/about/about-bg@2x.png);
+    background-image: url(/../images/desktop/about/about-bg@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
   .about {
-    background-image: url(/./images/desktop/about/about-bg.png);
+    background-image: url(/../images/desktop/about/about-bg.png);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .about {
-    background-image: url(/./images/desktop/about/about-bg@2x.png);
+    background-image: url(/../images/desktop/about/about-bg@2x.png);
   }
 }
 
@@ -1289,7 +1289,7 @@ body {
   border-radius: 24px;
   background-repeat: no-repeat;
   background-color: #ffffff;
-  background-image: url(/./images/mobile/about/about-bg.png);
+  background-image: url(/../images/mobile/about/about-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1297,27 +1297,27 @@ body {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .modal__about_window {
-    background-image: url(/./images/mobile/about/about-bg@2x.png);
+    background-image: url(/../images/mobile/about/about-bg@2x.png);
   }
 }
 @media screen and (min-width: 768px) {
   .modal__about_window {
-    background-image: url(/./images/desktop/about/about-bg.png);
+    background-image: url(/../images/desktop/about/about-bg.png);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .modal__about_window {
-    background-image: url(/./images/desktop/about/about-bg@2x.png);
+    background-image: url(/../images/desktop/about/about-bg@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
   .modal__about_window {
-    background-image: url(/./images/desktop/about/about-bg.png);
+    background-image: url(/../images/desktop/about/about-bg.png);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .modal__about_window {
-    background-image: url(/./images/desktop/about/about-bg@2x.png);
+    background-image: url(/../images/desktop/about/about-bg@2x.png);
   }
 }
 
@@ -1435,31 +1435,31 @@ body {
 
 .advantages__item:nth-child(1)::before {
   content: "";
-  background-image: url("/images/advantages/img1.png");
+  background-image: url("./images/advantages/img1.png");
 }
 
 .advantages__item:nth-child(2)::before {
   content: "";
-  background-image: url("/images/advantages/img2.png");
+  background-image: url("./images/advantages/img2.png");
 }
 
 .advantages__item:nth-child(3)::before {
   content: "";
-  background-image: url("/images/advantages/img3.png");
+  background-image: url("./images/advantages/img3.png");
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .advantages__item:nth-child(1)::before {
     content: "";
-    background-image: url("/images/advantages/img1@2x.png");
+    background-image: url("./images/advantages/img1@2x.png");
   }
   .advantages__item:nth-child(2)::before {
     content: "";
-    background-image: url("/images/advantages/img2@2x.png");
+    background-image: url("./images/advantages/img2@2x.png");
   }
   .advantages__item:nth-child(3)::before {
     content: "";
-    background-image: url("/images/advantages/img3@2x.png");
+    background-image: url("./images/advantages/img3@2x.png");
   }
 }
 @media screen and (min-width: 768px) {
@@ -1530,7 +1530,7 @@ body {
   width: 100%;
 }
 .slider__text::before {
-  content: url(../images/reviews/quotes.svg);
+  content: url(.../images/reviews/quotes.svg);
   position: absolute;
 }
 
@@ -1582,7 +1582,7 @@ body {
 
 .swiper-pagination-bullet-active {
   background: transparent;
-  background-image: url(../images/reviews/home.svg);
+  background-image: url(.../images/reviews/home.svg);
   background-position: center;
   background-size: cover;
   border-radius: 0;
@@ -2403,7 +2403,7 @@ body {
   height: 500px;
   padding: 40px 20px 40px 50px;
   border-radius: 24px;
-  background-image: url("../images/mobile/about/about-bg.png");
+  background-image: url(".../images/mobile/about/about-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2412,27 +2412,27 @@ body {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .modal-window {
-    background-image: url(./images/mobile/about/about-bg@2x.png);
+    background-image: url(../images/mobile/about/about-bg@2x.png);
   }
 }
 @media screen and (min-width: 768px) {
   .modal-window {
-    background-image: url(./images/desktop/about/about-bg.png);
+    background-image: url(../images/desktop/about/about-bg.png);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .modal-window {
-    background-image: url(./images/desktop/about/about-bg@2x.png);
+    background-image: url(../images/desktop/about/about-bg@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
   .modal-window {
-    background-image: url(./images/desktop/about/about-bg.png);
+    background-image: url(../images/desktop/about/about-bg.png);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .modal-window {
-    background-image: url(./images/desktop/about/about-bg@2x.png);
+    background-image: url(../images/desktop/about/about-bg@2x.png);
   }
 }
 
