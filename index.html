@@ -387,39 +387,295 @@
     </section>
 
     <!-- GALLERY -->
-    <section class="section section__gallery">
-      <div class="container">
-          <div class="gallery element-animation">
-              <picture>
-                  <source
-                  srcset="./images/desktop/gallery/gallery.webp 1x, ./images/desktop/gallery/gallery@2x.webp 2x"
-                  media="(min-width: 1200px)"
-                  type="image/webp">
-                  <source
-                  srcset="./images/desktop/gallery/gallery.png 1x, ./images/desktop/gallery/gallery@2x.png 2x"
-                  media="(min-width: 1200px)">
-  
-                  <source
-                  srcset="./images/tablet/gallery/gallery.webp 1x, ./images/tablet/gallery/gallery@2x.webp 2x"
-                  media="(min-width: 768px)"
-                  type="image/webp">
-                  <source
-                  srcset="./images/tablet/gallery/gallery.png 1x, ./images/tablet/gallery/gallery@2x.png 2x"
-                  media="(min-width: 768px)">
-  
-                  <source
-                  srcset="./images/mobile/gallery/gallery.webp 1x, ./images/mobile/gallery/gallery@2x.webp 2x"
-                  media="(max-width: 767px)"
-                  type="image/webp">
-                  <source
-                  srcset="./images/mobile/gallery/gallery.png 1x, ./images/mobile/gallery/gallery@2x.png 2x"
-                  media="(max-width: 767px)">
-  
-                  <img src="./images/mobile/gallery/gallery.png" alt="IceCream" class="gallery">
-              </picture>
-          </div>
-      </div>
-    </section>
+<!-- <div class="section section__gallery">
+    <div class="container">
+        <div class="gallery element-animation">
+            <picture>
+                <source
+                srcset="./images/desktop/gallery/gallery.webp 1x, ./images/desktop/gallery/gallery@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp">
+                <source
+                srcset="./images/desktop/gallery/gallery.png 1x, ./images/desktop/gallery/gallery@2x.png 2x"
+                media="(min-width: 1200px)">
+
+                <source
+                srcset="./images/tablet/gallery/gallery.webp 1x, ./images/tablet/gallery/gallery@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/tablet/gallery/gallery.png 1x, ./images/tablet/gallery/gallery@2x.png 2x"
+                media="(min-width: 768px)">
+
+                <source
+                srcset="./images/mobile/gallery/gallery.webp 1x, ./images/mobile/gallery/gallery@2x.webp 2x"
+                media="(max-width: 767px)"
+                type="image/webp">
+                <source
+                srcset="./images/mobile/gallery/gallery.png 1x, ./images/mobile/gallery/gallery@2x.png 2x"
+                media="(max-width: 767px)">
+
+                <img src="./images/mobile/gallery/gallery.png" alt="IceCream" class="gallery">
+            </picture>
+        </div>
+    </div>
+</div> -->
+
+<section class="section section-gallery">
+  <div class="container">
+    <ul class="gallery-list">
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/one.webp    1x,
+              ./images/gallery/web/one-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="./images/gallery/one.jpg 1x, ./images/gallery/one-2x.jpg 2x"
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/one.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/two.webp    1x,
+              ./images/gallery/web/two-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="./images/gallery/two.jpg 1x, ./images/gallery/two-2x.jpg 2x"
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/two.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/three.webp    1x,
+              ./images/gallery/web/three-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/gallery/three.jpg    1x,
+              ./images/gallery/three-2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/three.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/foure.webp    1x,
+              ./images/gallery/web/foure-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/gallery/foure.jpg    1x,
+              ./images/gallery/foure-2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/foure.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/five.webp    1x,
+              ./images/gallery/web/five-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/gallery/five.jpg    1x,
+              ./images/gallery/five-2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/five.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/six.webp    1x,
+              ./images/gallery/web/six-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="./images/gallery/six.jpg 1x, ./images/gallery/six-2x.jpg 2x"
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/six.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/seven.webp    1x,
+              ./images/gallery/web/seven-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/gallery/seven.jpg    1x,
+              ./images/gallery/seven-2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/seven.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/eight.webp    1x,
+              ./images/gallery/web/eight-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/gallery/eight.jpg    1x,
+              ./images/gallery/eight-2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/eight.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/nine.webp    1x,
+              ./images/gallery/web/nine-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/gallery/nine.jpg    1x,
+              ./images/gallery/nine-2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/nine.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list__item">
+        <picture>
+          <source
+            srcset="
+              ./images/gallery/web/ten.webp    1x,
+              ./images/gallery/web/ten-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="./images/gallery/ten.jpg 1x, ./images/gallery/ten-2x.jpg 2x"
+            type="image/jpeg"
+          />
+          <img
+            class="gallery-list__img"
+            src="./images/gallery/ten.jpg"
+            alt="ice cream"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
 
 
     <!-- REVIEWS -->
